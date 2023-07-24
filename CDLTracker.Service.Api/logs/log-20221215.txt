@@ -1,0 +1,15 @@
+2022-12-15 21:14:41.413 -05:00 [INF] Now listening on: https://localhost:7219
+2022-12-15 21:14:41.460 -05:00 [INF] Now listening on: http://localhost:5219
+2022-12-15 21:14:41.467 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-15 21:14:41.468 -05:00 [INF] Hosting environment: Development
+2022-12-15 21:14:41.470 -05:00 [INF] Content root path: C:\Projects\CDLTrackingPage\CDLTracker\CDLTracker.Service.Api\
+2022-12-15 21:15:13.795 -05:00 [INF] Now listening on: https://localhost:7219
+2022-12-15 21:15:13.842 -05:00 [INF] Now listening on: http://localhost:5219
+2022-12-15 21:15:13.869 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-15 21:15:13.873 -05:00 [INF] Hosting environment: Development
+2022-12-15 21:15:13.874 -05:00 [INF] Content root path: C:\Projects\CDLTrackingPage\CDLTracker\CDLTracker.Service.Api\
+2022-12-15 21:16:09.039 -05:00 [INF] Now listening on: https://localhost:7219
+2022-12-15 21:16:09.093 -05:00 [INF] Now listening on: http://localhost:5219
+2022-12-15 21:16:09.100 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-15 21:16:09.102 -05:00 [INF] Hosting environment: Development
+2022-12-15 21:16:09.104 -05:00 [INF] Content root path: C:\Projects\CDLTrackingPage\CDLTracker\CDLTracker.Service.Api\

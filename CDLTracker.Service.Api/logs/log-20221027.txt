@@ -1,0 +1,45 @@
+2022-10-27 20:40:05.480 -04:00 [INF] Now listening on: https://localhost:7219
+2022-10-27 20:40:05.530 -04:00 [INF] Now listening on: http://localhost:5219
+2022-10-27 20:40:05.536 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-10-27 20:40:05.537 -04:00 [INF] Hosting environment: Development
+2022-10-27 20:40:05.538 -04:00 [INF] Content root path: C:\Projects\CDLTrackingPage\CDLTracker\CDLTracker.Service.Api\
+2022-10-27 20:40:51.089 -04:00 [WRN] No store type was specified for the decimal property 'OrderTrackingId' on entity type 'CdlOrderTracking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-27 20:40:51.095 -04:00 [WRN] No store type was specified for the decimal property 'OrderTrackingId' on entity type 'CdlTrackerOrderGeolocation'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-27 20:40:51.097 -04:00 [WRN] No store type was specified for the decimal property 'OrderTrackingId' on entity type 'CdlTrackerOrderScans'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-10-27 20:40:51.833 -04:00 [ERR] Failed executing DbCommand (294ms) [Parameters=[@orderTrackingId='?' (Size = 13) (DbType = AnsiString), @isOrderTrackingid='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+EXEC [dbo].[sp_GetOrderTrackingInfo] @orderTrackingId, @isordertrackingid
+2022-10-27 20:40:51.888 -04:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CDLTracker.Service.Api.DbContexts.ApplicationDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Error converting data type varchar to numeric.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:23e89a4a-cf94-49b5-9e26-2863d850d4bf
+Error Number:8114,State:5,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Error converting data type varchar to numeric.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:23e89a4a-cf94-49b5-9e26-2863d850d4bf
+Error Number:8114,State:5,Class:16
+2022-10-27 20:40:51.953 -04:00 [INF] GetCdlOrderTrackingInfo api called successfully...OrderTrackingId:9581EC3722013...isOrderTrackingid:True
+2022-10-27 20:40:59.597 -04:00 [INF] GetCdlOrderTrackingInfo api called successfully...OrderTrackingId:9581EC3722013...isOrderTrackingid:False

@@ -1,0 +1,38 @@
+2022-11-19 15:20:59.791 -05:00 [INF] Now listening on: https://localhost:7219
+2022-11-19 15:20:59.837 -05:00 [INF] Now listening on: http://localhost:5219
+2022-11-19 15:20:59.844 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-19 15:20:59.845 -05:00 [INF] Hosting environment: Development
+2022-11-19 15:20:59.847 -05:00 [INF] Content root path: C:\Projects\CDLTrackingPage\CDLTracker\CDLTracker.Service.Api\
+2022-11-19 15:22:04.467 -05:00 [INF] Now listening on: https://localhost:7219
+2022-11-19 15:22:04.509 -05:00 [INF] Now listening on: http://localhost:5219
+2022-11-19 15:22:04.515 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-19 15:22:04.519 -05:00 [INF] Hosting environment: Development
+2022-11-19 15:22:04.520 -05:00 [INF] Content root path: C:\Projects\CDLTrackingPage\CDLTracker\CDLTracker.Service.Api\
+2022-11-19 15:22:20.248 -05:00 [ERR] GetCdlOrderScans api call failed. Error Message: System.Collections.Generic.List`1[System.String]...OrderTrackingId:222...isOrderTrackingid:True
+2022-11-19 15:25:51.405 -05:00 [ERR] GetCdlOrderScans api call failed. Error Message: System.Collections.Generic.List`1[System.String]...OrderTrackingId:222...isOrderTrackingid:True
+2022-11-19 15:31:46.037 -05:00 [ERR] GetCdlOrderScans api call failed. Error Message: System.Collections.Generic.List`1[System.String]...OrderTrackingId:12123...isOrderTrackingid:True
+2022-11-19 15:42:56.672 -05:00 [INF] Now listening on: https://localhost:7219
+2022-11-19 15:42:56.714 -05:00 [INF] Now listening on: http://localhost:5219
+2022-11-19 15:42:56.720 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-19 15:42:56.721 -05:00 [INF] Hosting environment: Development
+2022-11-19 15:42:56.722 -05:00 [INF] Content root path: C:\Projects\CDLTrackingPage\CDLTracker\CDLTracker.Service.Api\
+2022-11-19 15:48:16.407 -05:00 [INF] Now listening on: https://localhost:7219
+2022-11-19 15:48:16.456 -05:00 [INF] Now listening on: http://localhost:5219
+2022-11-19 15:48:16.462 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-19 15:48:16.463 -05:00 [INF] Hosting environment: Development
+2022-11-19 15:48:16.464 -05:00 [INF] Content root path: C:\Projects\CDLTrackingPage\CDLTracker\CDLTracker.Service.Api\
+2022-11-19 15:49:23.672 -05:00 [WRN] No store type was specified for the decimal property 'Lat' on entity type 'CdlOrderTracking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-11-19 15:49:23.677 -05:00 [WRN] No store type was specified for the decimal property 'Long' on entity type 'CdlOrderTracking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-11-19 15:49:23.679 -05:00 [WRN] No store type was specified for the decimal property 'OrderTrackingId' on entity type 'CdlOrderTracking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-11-19 15:49:23.679 -05:00 [WRN] No store type was specified for the decimal property 'OrderTrackingId' on entity type 'CdlTrackerOrderGeolocation'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-11-19 15:49:23.680 -05:00 [WRN] No store type was specified for the decimal property 'OrderTrackingId' on entity type 'CdlTrackerOrderScans'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-11-19 15:50:30.734 -05:00 [INF] Now listening on: https://localhost:7219
+2022-11-19 15:50:30.777 -05:00 [INF] Now listening on: http://localhost:5219
+2022-11-19 15:50:30.783 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-19 15:50:30.789 -05:00 [INF] Hosting environment: Development
+2022-11-19 15:50:30.791 -05:00 [INF] Content root path: C:\Projects\CDLTrackingPage\CDLTracker\CDLTracker.Service.Api\
+2022-11-19 15:50:50.581 -05:00 [WRN] No store type was specified for the decimal property 'Lat' on entity type 'CdlOrderTracking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-11-19 15:50:50.587 -05:00 [WRN] No store type was specified for the decimal property 'Long' on entity type 'CdlOrderTracking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-11-19 15:50:50.588 -05:00 [WRN] No store type was specified for the decimal property 'OrderTrackingId' on entity type 'CdlOrderTracking'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-11-19 15:50:50.589 -05:00 [WRN] No store type was specified for the decimal property 'OrderTrackingId' on entity type 'CdlTrackerOrderGeolocation'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2022-11-19 15:50:50.590 -05:00 [WRN] No store type was specified for the decimal property 'OrderTrackingId' on entity type 'CdlTrackerOrderScans'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
